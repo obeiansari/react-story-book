@@ -22,10 +22,10 @@ const prodConfig = {
         }],
     },
     plugins: [
-    new MiniCssExtractPlugin({
-      filename: 'assets/css/styles.[name].[fullhash].css',
-    }),
-  ],
+        new MiniCssExtractPlugin({
+        filename: 'assets/css/styles.[name].[fullhash].css',
+        }),
+    ],
 }
 
 module.exports = merge(commonConfig, prodConfig)
